@@ -1,0 +1,90 @@
+body{
+margin: 0;
+
+}
+
+
+#subfondo{
+    background-color: #9B2E49;
+    margin: 48px;
+    border-radius: 20px;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.pantalla_1{
+  
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+}
+
+#btn_proceso_compra{
+margin-top: 40px;
+margin-bottom: 60px;
+}
+
+
+
+#btn_experiencia{
+margin-top: 60px;
+}
+
+
+.pantalla_2{
+    display: none;
+
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+
+    #productos{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #preparacion{
+        margin-top: 50px;
+
+        #imagen_producto{
+            
+            margin-bottom: -100px;
+        }
+
+    }
+}
+
+.boton{
+    cursor:pointer;
+}
+
+.pantalla_3{
+  
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+}
