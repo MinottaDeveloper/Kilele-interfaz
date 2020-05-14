@@ -96,4 +96,125 @@ body {
           align-items: center;
   height: 935px;
 }
+
+.coffee {
+  width: 90%;
+  height: 90%;
+  background: #953149;
+  border-radius: 10px;
+  color: white;
+}
+
+.coffee__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.coffee__container__preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 300px;
+  background-color: #84283F;
+  border-radius: 10px;
+}
+
+.coffee__container__preview__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+
+.coffee__container__preview__container__img {
+  width: 70%;
+  height: 70%;
+}
+
+.coffee__container__preview__container__img img {
+  width: 200px;
+  height: 200px;
+}
+
+.coffee__container__preview__container__informacion__precio {
+  border-top: 2px solid white;
+}
+
+.coffee__container__azucar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #84283F;
+  border-radius: 10px;
+}
+
+.coffee__container__azucar__nivel, .coffee__container__azucar__tamano {
+  position: relative;
+  width: 100px;
+  height: 50px;
+}
+
+.coffee__container__azucar__nivel input, .coffee__container__azucar__tamano input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.coffee__container__azucar__nivel label, .coffee__container__azucar__tamano label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2em;
+}
+
+.coffee__container__azucar__nivel input:checked + label, .coffee__container__azucar__tamano input:checked + label {
+  cursor: pointer;
+  background: #D44266;
+  border-radius: 10px;
+}
+
+.coffee__container__azucar__tamano {
+  width: 150px;
+}
+
+.coffee__container__comprar {
+  border: 0;
+  background: #008598;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  margin-top: 50px;
+  border-radius: 10px;
+  color: white;
+}
 /*# sourceMappingURL=index-style.css.map */

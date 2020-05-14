@@ -1,79 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kilele</title>
     <link rel="stylesheet" href="./styles/index-style.css">
-   
+
 
 </head>
+
 <body>
 
     <div class="pantalla_1">
-    <img src="./src/logo.png" alt="Kilele">
-     <img id="btn_experiencia" class="boton" src="./src/btn_experiencia.png" alt="Vive la experiencia">
-     <img id="btn_proceso_compra" class="boton" src="./src/btn_compra.png" alt="Proceso de compra">
-     <img src="./src/logos_asociasiones.png" alt="">   
+        <img src="./src/logo.png" alt="Kilele">
+        <img id="btn_experiencia" class="boton" src="./src/btn_experiencia.png" alt="Vive la experiencia">
+        <img id="btn_proceso_compra" class="boton" src="./src/btn_compra.png" alt="Proceso de compra">
+        <img src="./src/logos_asociasiones.png" alt="">
 
     </div>
 
-    <div class="pantalla_2"> 
-    
+    <div class="pantalla_2">
+
         <div id="subfondo">
-        <img src="./src/TIPOS DE CAFÉ KILELE.png" alt="">
+            <img src="./src/TIPOS DE CAFÉ KILELE.png" alt="">
 
-        <div id="productos">
+            <div id="productos">
 
-            <div id="preparacion">
-                <img id="imagen_producto" src="./src/capucchino.png" alt="">
-                <img id="btn_comprar_producto_capucchino" class="boton" src="./src/btn_comprar_producto.png" alt="">
+                <div id="preparacion">
+                    <img id="imagen_producto" src="./src/capucchino.png" alt="">
+                    <img id="btn_comprar_producto_capucchino" class="boton" src="./src/btn_comprar_producto.png" alt="">
+                </div>
+
+                <div id="preparacion">
+                    <img id="imagen_producto" src="./src/americano.png" alt="">
+                    <img id="btn_comprar_producto_americano" class="boton" src="./src/btn_comprar_producto.png" alt="">
+                </div>
+
+                <div id="preparacion">
+                    <img id="imagen_producto" src="./src/mocca.png" alt="">
+                    <img id="btn_comprar_producto_mocca" class="boton" src="./src/btn_comprar_producto.png" alt="">
+                </div>
+
+                <div id="preparacion">
+                    <img id="imagen_producto" src="./src/espreso.png" alt="">
+                    <img id="btn_comprar_producto_espreso" class="boton" src="./src/btn_comprar_producto.png" alt="">
+                </div>
+
             </div>
-
-            <div id="preparacion">
-                <img id="imagen_producto" src="./src/americano.png" alt="">
-                <img id="btn_comprar_producto_americano" class="boton" src="./src/btn_comprar_producto.png" alt="">
-            </div>
-
-            <div id="preparacion">
-                <img id="imagen_producto" src="./src/mocca.png" alt="">
-                <img id="btn_comprar_producto_mocca" class="boton" src="./src/btn_comprar_producto.png" alt="">
-            </div>
-
-            <div id="preparacion">
-                <img id="imagen_producto" src="./src/espreso.png" alt="">
-                <img id="btn_comprar_producto_espreso" class="boton" src="./src/btn_comprar_producto.png" alt="">
-            </div>
-
-        </div>
         </div>
 
     </div>
 
     <div class="pantalla_3">
+        
+        <article class="coffee">
+            <section class="coffee__container">
+                <div class="coffee__container__preview">
+                    <div class="coffee__container__preview__container">
+                        <div class="coffee__container__preview__container__img">
+                            <img src="/cafe.png" alt="">
+                        </div>
+                        <div class="coffee__container__preview__container__informacion">
+                            <div class="coffee__container__preview__container__informacion__titulo">
+                                <h2>Americano</h2>
+                            </div>
+                            <div class="coffee__container__preview__container__informacion__precio">
+                                <h2>Valor: <span>$5.000</span></h2>
+                            </div>
+                        </div>
 
-        <div id="subfondo">
-            <img class="producto_descripcion" src="./src/americano_descripcion.png" alt="">
-        </div>
+                    </div>
+                </div>
 
-        <h2>Cantidad de azúcar</h2>
+                <h3>Cantidad de azucar</h3>
 
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
+                <div class="coffee__container__azucar">
+                    <div class="coffee__container__azucar__nivel">
+                        <input type="radio" name="azucar" value="1">
+                        <label>1</label>
+                    </div>
+                    <div class="coffee__container__azucar__nivel">
+                        <input type="radio" name="azucar" value="2">
+                        <label>2</label>
+                    </div>
+                    <div class="coffee__container__azucar__nivel">
+                        <input type="radio" name="azucar" value="3">
+                        <label>3</label>
+                    </div>
+                    <div class="coffee__container__azucar__nivel">
+                        <input type="radio" name="azucar" value="4">
+                        <label>4</label>
+                    </div>
+                    <div class="coffee__container__azucar__nivel">
+                        <input type="radio" name="azucar" value="5">
+                        <label>5</label>
+                    </div>
+                </div>
 
-        <h2>Tamaño taza</h2>
+                <h3>Tamaño de tasa</h3>
+                <div class="coffee__container__azucar">
+                    <div class="coffee__container__azucar__tamano">
+                        <input type="radio" name="tamano" value="Pequeño">
+                        <label>Pequeño</label>
+                    </div>
+                    <div class="coffee__container__azucar__tamano">
+                        <input type="radio" name="tamano" value="Mediano">
+                        <label>Mediano</label>
+                    </div>
+                    <div class="coffee__container__azucar__tamano">
+                        <input type="radio" name="tamano" value="Grande">
+                        <label>Grande</label>
+                    </div>
 
-        <ul>
-            <li>Pequeño</li>
-            <li>Mediano</li>
-            <li>Grande</li>
-        </ul>
+                </div>
+
+                <button class="coffee__container__comprar">Comprar</button>
+
+            </section>
+
+        </article>
 
 
     </div>
@@ -82,5 +129,5 @@
     <script src="./js/main.js"></script>
 
 </body>
-</html>
 
+</html>
