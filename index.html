@@ -54,7 +54,7 @@
     </div>
 
     <div class="pantalla_3">
-        
+
         <article class="coffee">
             <section class="coffee__container">
                 <div class="coffee__container__preview">
@@ -138,17 +138,39 @@
             <img src="./src/ESCOGE EL ORIGEN DE TU CAFÉ.png" alt="">
 
             <div class="contenedor_opcionRegiones">
-                <img id="boton" class="region_pacifico" src="./src/region_pacifico.png" alt="">
-                <img id="boton" class="region_ejecafetero" src="./src/region_ejecafetero.png" alt="">
+                <div class="contenedor_opcionRegiones__opcion">
+                    <input type="radio" name="seleccion">
+                    <label>
+                        <img id="boton" class="region_pacifico" src="./src/region_pacifico.png" alt="">
+                    </label>
+                </div>
+                <div class="contenedor_opcionRegiones__opcion">
+                    <input type="radio" name="seleccion">
+                    <label>
+                        <img id="boton" class="region_ejecafetero" src="./src/region_ejecafetero.png" alt="">
+                    </label>
+                </div>
+
 
                 <div class="contenedor_tostion">
                     <img src="./src/Nivel de Tostión.png" alt="">
-                    <img id="boton" class="tostion_alta" src="./src/alta_tostion.png" alt="">
-                    <img id="boton" class="tostion_media" src="./src/media_tostion.png" alt="">
+                    <div class="contenedor_tostion__opcion">
+                        <input type="radio" name="nivel">
+                        <label>
+                            <img id="boton" class="tostion_alta" src="./src/alta_tostion.png" alt="">
+
+                        </label>
+                    </div>
+                    <div class="contenedor_tostion__opcion">
+                        <input type="radio" name="nivel">
+                        <label>
+                            <img id="boton" class="tostion_media" src="./src/media_tostion.png" alt="">
+                        </label>
+                    </div>
                 </div>
             </div>
 
-            <img id="boton" class="btn_confirmarPedidoCaracteristicas"  src="./src/btn_confirmarOrigen.png" alt="">
+            <img id="boton" class="btn_confirmarPedidoCaracteristicas" src="./src/btn_confirmarOrigen.png" alt="">
 
         </div>
 
@@ -157,15 +179,15 @@
     <div class="pantalla_5">
         <div id="subfondo">
             <img src="./src/Medio de Pago.png" alt="">
-           <div  class="medio_pago">
+            <div class="medio_pago">
                 <img class="tarjeta_credito" id="boton" src="./src/tarjeta_credito.png" alt="">
                 <img class="efectivo" id="boton" src="./src/efectivo.png" alt="">
-           </div>
+            </div>
         </div>
     </div>
 
     <div class="pantalla_pagoEfectivo">
-        <div id="subfondo"> 
+        <div id="subfondo">
             <img src="./src/INSERTE EL DINERO.png" alt="">
             <h2>Usted va a pagar un Café Americano</h2>
 
@@ -177,30 +199,30 @@
             </div>
 
             <img class="btn_comprar_efectivo" id="boton" src="./src/btn_comprar_producto.png" alt="">
-            
+
         </div>
     </div>
 
     <div class="pantalla_pagoTarjeta">
-        <div id="subfondo"> 
+        <div id="subfondo">
 
             <img src="./src/ESCANEE SU TARJETA.png" alt="">
             <div class="columnas_tarjeta">
 
                 <div class="contenedor_resumen_compra_tarjeta">
-                <h2>Usted va a pagar un Café Americano</h2>
+                    <h2>Usted va a pagar un Café Americano</h2>
 
-                <div class="valor_pagar_imagen">
-                    <img src="./src/Valor a pagar_ $0.00.png" alt="">
-                    <img src="./src/mocca_img.png" alt="">                    
+                    <div class="valor_pagar_imagen">
+                        <img src="./src/Valor a pagar_ $0.00.png" alt="">
+                        <img src="./src/mocca_img.png" alt="">
+                    </div>
+
+                    <img class="btn_comprar_tarjeta" src="./src/btn_comprar_producto.png" alt="">
                 </div>
 
-                <img class="btn_comprar_tarjeta" src="./src/btn_comprar_producto.png" alt="">
-            </div>
-
-            <div class="columna_teclado">
-                <img src="./src/teclado_tarjeta.png" alt="">
-            </div>
+                <div class="columna_teclado">
+                    <img src="./src/teclado_tarjeta.png" alt="">
+                </div>
 
             </div>
         </div>
@@ -214,7 +236,7 @@
             <img class="btn_finalizarPedido" id="boton" src="./src/btn_finalizarPedido.png" alt="">
         </div>
 
-            <img class="logoKilele_final" src="./src/Logo Kilele express.png" alt="">
+        <img class="logoKilele_final" src="./src/Logo Kilele express.png" alt="">
 
     </div>
 
