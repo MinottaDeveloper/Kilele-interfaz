@@ -1,4 +1,10 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+}
+
 body {
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
 }
 
@@ -74,7 +80,7 @@ body {
   margin-bottom: -100px;
 }
 
-.boton {
+.boton, #boton {
   cursor: pointer;
 }
 
@@ -216,5 +222,314 @@ body {
   margin-top: 50px;
   border-radius: 10px;
   color: white;
+}
+
+.pantalla_4 {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_4 #subfondo {
+  padding: 100px 250px 100px 250px;
+}
+
+.pantalla_4 .contenedor_opcionRegiones {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pantalla_4 .contenedor_tostion {
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_4 .region_ejecafetero {
+  margin-left: 20px;
+}
+
+.pantalla_4 .tostion_alta {
+  margin: 20px 0 20px 0;
+}
+
+.pantalla_5 {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_5 .tarjeta_credito, .pantalla_5 .efectivo {
+  margin: 50px 50px 0 0;
+}
+
+.pantalla_5 .medio_pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_5 #subfondo {
+  padding: 200px 350px 200px 350px;
+}
+
+.pantalla_pagoEfectivo {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_pagoEfectivo h2 {
+  color: white;
+  font-size: 35pt;
+}
+
+.pantalla_pagoEfectivo .contenedor_resumen_compra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_pagoEfectivo .btn_comprar_efectivo {
+  margin-top: 50px;
+}
+
+.pantalla_pagoEfectivo #subfondo {
+  padding: 150px 350px 150px 350px;
+}
+
+.pantalla_pagoTarjeta {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_pagoTarjeta #subfondo {
+  padding: 100px 270px 100px 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_pagoTarjeta h2 {
+  color: white;
+  font-size: 35pt;
+  width: 450px;
+}
+
+.pantalla_pagoTarjeta .columnas_tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_pagoTarjeta .contenedor_resumen_compra_tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.pantalla_pagoTarjeta .valor_pagar_imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pantalla_pagoTarjeta .columna_teclado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pantalla_pagoTarjeta .btn_comprar_tarjeta {
+  margin-top: 70px;
+}
+
+.pantalla_final {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_final .botones_final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pantalla_final .botones_final img {
+  margin: 20px 0 20px 0;
+}
+
+.pantalla_final .logoKilele_final {
+  margin-left: 150px;
 }
 /*# sourceMappingURL=index-style.css.map */

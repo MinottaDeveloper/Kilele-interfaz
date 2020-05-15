@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Quicksand&display=swap);
+  }
+
+
 body{
+    font-family: 'Quicksand', sans-serif;
 margin: 0;
 
 }
@@ -71,7 +78,7 @@ margin-top: 60px;
     }
 }
 
-.boton{
+.boton, #boton{
     cursor:pointer;
 }
 
@@ -88,6 +95,7 @@ margin-top: 60px;
     align-items: center;
     height: 935px;
 }
+
 
 
 
@@ -221,5 +229,212 @@ margin-top: 60px;
 
     }
     
+
+}
+
+.pantalla_4{
+  
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    #subfondo{
+        padding: 100px 250px 100px 250px;
+    }
+
+
+    .contenedor_opcionRegiones{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor_tostion{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .region_ejecafetero{
+        margin-left: 20px;
+    }
+
+    .tostion_alta{
+        margin: 20px 0 20px 0;
+    }
+
+
+
+
+}
+
+.pantalla_5{
+  
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    .tarjeta_credito, .efectivo{
+        margin: 50px 50px 0 0;
+    }
+
+    .medio_pago{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+     #subfondo{
+        padding: 200px 350px 200px 350px;
+    }
+    
+}
+
+.pantalla_pagoEfectivo{
+  
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    h2{
+        color: white;
+        font-size: 35pt;
+    }
+
+    .contenedor_resumen_compra{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn_comprar_efectivo{
+        margin-top: 50px;
+    }
+
+    #subfondo{
+        padding: 150px 350px 150px 350px;
+    }
+}
+
+
+.pantalla_pagoTarjeta{
+
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    #subfondo{
+        padding: 100px 270px 100px 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2{
+        color: white;
+        font-size: 35pt;
+        width: 450px;
+    }
+
+    .columnas_tarjeta{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor_resumen_compra_tarjeta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .valor_pagar_imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .columna_teclado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        margin-top: 50px;
+    }
+
+
+    .btn_comprar_tarjeta{
+        margin-top: 70px;
+    }
+}
+
+.pantalla_final{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    .botones_final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            margin: 20px 0 20px 0;
+        }
+    }
+
+    .logoKilele_final{
+        margin-left: 150px;
+    }
 
 }
