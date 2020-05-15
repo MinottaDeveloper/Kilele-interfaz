@@ -174,3 +174,13 @@ btn_finalizarPedido.addEventListener('click', finalizarPedido);
 
 
 });
+
+
+
+function simulateKeyPress(tecla) {
+  var input = document.querySelector(".input__teclado");
+  var valor = input.value;
+  input.value = (valor*10) + (parseInt(tecla));
+  
+
+}
