@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     
 const btn_comprar = document.querySelector('#btn_proceso_compra');
+const btn_experiencia = document.querySelector('#btn_experiencia');
 const btn_comprarCapuchino = document.querySelector('#btn_comprar_producto_capucchino');
 const btn_comprarAmericano = document.querySelector('#btn_comprar_producto_americano');
 const btn_comprarMocca = document.querySelector('#btn_comprar_producto_mocca');
@@ -15,6 +16,8 @@ const btn_comprar_efectivo = document.querySelector('.btn_comprar_efectivo');
 const btn_comprar_tarjeta = document.querySelector('.btn_comprar_tarjeta');
 const btn_otraBebida = document.querySelector('.btn_otraBebida');
 const btn_finalizarPedido = document.querySelector('.btn_finalizarPedido');
+const btn_proceso_compra_video = document.querySelector('#btn_proceso_compra_video');
+
 
 
 const pantalla1 = document.querySelector('.pantalla_1');
@@ -25,6 +28,7 @@ const pantalla5 = document.querySelector('.pantalla_5');
 const pantalla_pagoEfectivo = document.querySelector('.pantalla_pagoEfectivo');
 const pantalla_pagoTarjeta = document.querySelector('.pantalla_pagoTarjeta');
 const pantalla_final = document.querySelector('.pantalla_final');
+const pantalla_video = document.querySelector('.pantalla_video');
 
 var imagenProductoDescripcion = document.querySelector('.imagenProductoDesc');
 var nombreProductoDesc = document.querySelector('.nombreProductoDesc');
@@ -32,9 +36,18 @@ var nombreProductoDesc = document.querySelector('.nombreProductoDesc');
 var productoSeleccionado
 var valor_producto
 
+function verExperiencia(){
+  pantalla1.style.display = 'none';
+  pantalla_video.style.display = 'flex';
+}
+
+
+
 function procesoCompra(){    
 pantalla1.style.display = 'none';
 pantalla2.style.display = 'flex';
+pantalla_video.style.display = 'none';
+
 }
 
 function pantallaDescripcionProducto(){
@@ -172,15 +185,22 @@ btn_comprar_tarjeta.addEventListener('click', mostrarPantallaFinal);
 btn_otraBebida.addEventListener('click', comprarOtraBebida);
 btn_finalizarPedido.addEventListener('click', finalizarPedido);
 
+btn_experiencia.addEventListener('click', verExperiencia);
+
+btn_proceso_compra_video.addEventListener('click', procesoCompra);
+
+
 
 });
 
 
 
 function simulateKeyPress(tecla) {
-  var input = document.querySelector(".input__teclado");
-  var valor = input.value;
+var input = document.querySelector(".input__teclado");
+var valor = input.value;
   input.value = (valor*10) + (parseInt(tecla));
+
+  
   
 
 }

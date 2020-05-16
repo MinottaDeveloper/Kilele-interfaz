@@ -588,4 +588,43 @@ body {
 .pantalla_final .logoKilele_final {
   margin-left: 150px;
 }
+
+.input__teclado {
+  position: absolute;
+  left: 300px;
+  top: 170px;
+  z-index: 99;
+  font-size: 15pt;
+  border: none;
+  background-color: white;
+}
+
+.columna_teclado__numeros {
+  margin-left: 55px;
+  margin-top: -28px;
+}
+
+.pantalla_video {
+  background-image: url("../src/hand-fruits-rural-gardening-92354 1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 935px;
+}
+
+.pantalla_video img {
+  margin-top: 50px;
+  width: 30%;
+}
 /*# sourceMappingURL=index-style.css.map */

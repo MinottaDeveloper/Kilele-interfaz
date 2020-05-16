@@ -501,3 +501,38 @@ margin-top: 60px;
     }
 
 }
+
+
+.input__teclado{
+    position: absolute;
+    left: 300px;
+    top: 170px;
+    z-index: 99;
+    font-size: 15pt;
+    border: none;
+    background-color: white;
+}
+
+.columna_teclado__numeros{
+    margin-left: 55px;
+    margin-top: -28px;
+}
+
+
+.pantalla_video{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    img{
+        margin-top: 50px;
+        width: 30%;
+    }
+}
