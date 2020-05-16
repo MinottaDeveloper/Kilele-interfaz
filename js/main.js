@@ -17,6 +17,11 @@ const btn_comprar_tarjeta = document.querySelector('.btn_comprar_tarjeta');
 const btn_otraBebida = document.querySelector('.btn_otraBebida');
 const btn_finalizarPedido = document.querySelector('.btn_finalizarPedido');
 const btn_proceso_compra_video = document.querySelector('#btn_proceso_compra_video');
+const btn_siguiente_transa = document.querySelector('#btn_siguiente_transa');
+const btn_siguiente_escanea = document.querySelector('#btn_siguiente_escanea');
+const btn_siguiente_molino = document.querySelector('#btn_siguiente_molino');
+const btn_siguiente_molienda = document.querySelector('#btn_siguiente_molienda');
+
 
 
 
@@ -29,6 +34,10 @@ const pantalla_pagoEfectivo = document.querySelector('.pantalla_pagoEfectivo');
 const pantalla_pagoTarjeta = document.querySelector('.pantalla_pagoTarjeta');
 const pantalla_final = document.querySelector('.pantalla_final');
 const pantalla_video = document.querySelector('.pantalla_video');
+const pantalla_tran_aprobada = document.querySelector('.pantalla_tran_aprobada');
+const pantalla_vaso = document.querySelector('.pantalla_vaso');
+const pantalla_molino = document.querySelector('.pantalla_molino');
+const pantalla_video_molienda = document.querySelector('.pantalla_video_molienda');
 
 var imagenProductoDescripcion = document.querySelector('.imagenProductoDesc');
 var nombreProductoDesc = document.querySelector('.nombreProductoDesc');
@@ -100,7 +109,8 @@ function continuarCompra(){
 pantalla1.style.display = 'none';
 pantalla2.style.display = 'none';
 pantalla3.style.display = 'none';
-pantalla4.style.display = 'flex';
+pantalla4.style.display = 'none';
+pantalla5.style.display = 'flex';
 }
 
 function confirmarCompraOrigen(){
@@ -138,8 +148,21 @@ pantalla4.style.display = 'none';
 pantalla5.style.display = 'none';
 pantalla_pagoTarjeta.style.display = 'none';
 pantalla_pagoEfectivo.style.display = 'none';
+pantalla_video_molienda.style.display = 'none';
 pantalla_final.style.display = 'flex';
 }
+
+function mostrarPantallaTransaccion(){
+  pantalla1.style.display = 'none';
+  pantalla2.style.display = 'none';
+  pantalla3.style.display = 'none';
+  pantalla4.style.display = 'none';
+  pantalla5.style.display = 'none';
+  pantalla_pagoTarjeta.style.display = 'none';
+  pantalla_pagoEfectivo.style.display = 'none';
+  pantalla_final.style.display = 'none';
+  pantalla_tran_aprobada.style.display = 'flex';
+  }
 
 function comprarOtraBebida(){
 pantalla1.style.display = 'none';
@@ -163,6 +186,22 @@ function finalizarPedido(){
   pantalla_final.style.display = 'none';
 }
 
+function mostrarPantallaEscanear(){
+  pantalla_tran_aprobada.style.display = 'none';
+  pantalla_vaso.style.display = 'flex';
+  pantalla_pagoEfectivo.style.display = 'none';
+}
+
+function mostrarPantallaMolino(){
+  pantalla_vaso.style.display = 'none';
+  pantalla_molino.style.display = 'flex';
+}
+
+function mostrarPantallaVideoMolienda(){
+  pantalla_molino.style.display = 'none';
+  pantalla_video_molienda.style.display = 'flex';
+}
+
 
 
 
@@ -179,8 +218,8 @@ btn_confirmarPedidoCaracteristicas.addEventListener('click', confirmarCompraOrig
 btn_tarjeta_credito.addEventListener('click', mostrarPantallaTarjeta);
 btn_pagarEfectivo.addEventListener('click', mostrarPantallaEfectivo);
 
-btn_comprar_efectivo.addEventListener('click', mostrarPantallaFinal);
-btn_comprar_tarjeta.addEventListener('click', mostrarPantallaFinal);
+btn_comprar_efectivo.addEventListener('click', mostrarPantallaEscanear);
+btn_comprar_tarjeta.addEventListener('click', mostrarPantallaTransaccion);
 
 btn_otraBebida.addEventListener('click', comprarOtraBebida);
 btn_finalizarPedido.addEventListener('click', finalizarPedido);
@@ -189,6 +228,10 @@ btn_experiencia.addEventListener('click', verExperiencia);
 
 btn_proceso_compra_video.addEventListener('click', procesoCompra);
 
+btn_siguiente_transa.addEventListener('click', mostrarPantallaEscanear);
+btn_siguiente_escanea.addEventListener('click', mostrarPantallaMolino );
+btn_siguiente_molino.addEventListener('click', mostrarPantallaVideoMolienda);
+btn_siguiente_molienda.addEventListener('click', mostrarPantallaFinal);
 
 
 });

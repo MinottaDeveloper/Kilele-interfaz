@@ -536,3 +536,85 @@ margin-top: 60px;
         width: 30%;
     }
 }
+
+
+.pantalla_tran_aprobada{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    #subfondo{
+        padding: 150px 550px 150px 550px;
+        img{ 
+            margin: 15px 0 15px 0;
+        }
+    }
+}
+
+.pantalla_vaso{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    img{
+        margin: 30px 0 30px 0;
+    }
+}
+
+
+.pantalla_molino{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    img{
+        margin: 30px 0 30px 0;
+    }
+}
+
+
+.pantalla_video_molienda{
+    background-image: url('../src/hand-fruits-rural-gardening-92354\ 1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+
+    .columna_logo{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: flex-start;
+         margin-right: 100px;
+
+         img{
+             margin: 20px 0 20px 0;
+         }
+    }
+}
